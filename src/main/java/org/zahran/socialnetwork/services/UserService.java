@@ -1,5 +1,6 @@
 package org.zahran.socialnetwork.services;
 
+import org.springframework.stereotype.Service;
 import org.zahran.socialnetwork.dto.ImageDto;
 import org.zahran.socialnetwork.dto.MessageDto;
 import org.zahran.socialnetwork.dto.ProfileDto;
@@ -7,7 +8,7 @@ import org.zahran.socialnetwork.dto.UserSummaryDto;
 
 import java.util.Arrays;
 import java.util.List;
-
+@Service
 public class UserService {
 
     public ProfileDto getProfile(Long userId) {
